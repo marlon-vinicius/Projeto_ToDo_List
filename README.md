@@ -46,9 +46,9 @@ Será necessário ter as seguintes ferramentas em sua máquina:
     data_criacao DATE DEFAULT CURRENT_DATE,
     data_atualizacao DATE DEFAULT CURRENT_DATE);
 
-# Executando a Aplicação
+## Executando a Aplicação
 
-## Clone o repositório:
+Clone o repositório:
 
 ```
 git clone https://github.com/marlon-vinicius/Projeto_ToDo_List.git
@@ -76,7 +76,7 @@ Execute o projeto.
 
 # Rotas da API
 
-# Criar uma nova tarefa
+### Criar uma nova tarefa
 - Método: POST
 - Endpoint: /api/tarefas
 
@@ -89,7 +89,7 @@ Execute o projeto.
 }
 ```
 
-# Listar todas as tarefas
+### Listar todas as tarefas
 - Método: GET
 - Endpoint: /api/tarefas
 
@@ -107,10 +107,10 @@ Execute o projeto.
 ]
 ```
 
-# Buscar uma tarefa por id
+### Buscar uma tarefa por id
 - Método: GET
 - Endpoint: /api/tarefas/{id}
 
-# Atualizar uma tarefa
+### Atualizar uma tarefa
 - Método: PUT
 - Endpoint: /api/tarefas/{id}
